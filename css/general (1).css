@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+abbr, article, aside, audio, canvas, datalist, details, figure, dialog, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "futura_std_lightitalic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font-face/futurastd-lightoblique-webfont.eot?#iefix") format("embedded-opentype"), url("font-face/futurastd-lightoblique-webfont.woff") format("woff"), url("font-face/futurastd-lightoblique-webfont.ttf") format("truetype"), url("font-face/futurastd-lightoblique-webfont.svg#futura_std_lightitalic") format("svg");
+}
+@font-face {
+    font-family: "futura_std_bookitalic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font-face/futurastd-bookoblique-webfont.eot?#iefix") format("embedded-opentype"), url("font-face/futurastd-bookoblique-webfont.woff") format("woff"), url("font-face/futurastd-bookoblique-webfont.ttf") format("truetype"), url("font-face/futurastd-bookoblique-webfont.svg#futura_std_bookitalic") format("svg");
+}
+@font-face {
+    font-family: "futura_std_bookregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font-face/futurastd-book-webfont.eot?#iefix") format("embedded-opentype"), url("font-face/futurastd-book-webfont.woff") format("woff"), url("font-face/futurastd-book-webfont.ttf") format("truetype"), url("font-face/futurastd-book-webfont.svg#futura_std_bookregular") format("svg");
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #808080;
+    font-family: 'futura_std_lightregular',Verdana,Geneva,sans-serif;
+    font-size: 14px;
+}
+
+a img {
+    border: 0 none;
+}
+@font-face {
+    font-family: "futura_std_lightregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font-face/futurastd-light-webfont.eot?#iefix") format("embedded-opentype"), url("font-face/futurastd-light-webfont.woff") format("woff"), url("font-face/futurastd-light-webfont.ttf") format("truetype"), url("font-face/futurastd-light-webfont.svg#futura_std_lightregular") format("svg");
+}
+
+a {
+	color:#6495ED;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+
+a.menu-gris {
+	color: #808080;
+	text-decoration: none;
+}
+
+a.menu-gris:hover {
+	color: #6495ED;
+	text-decoration: none;
+}
+
+a.plus-gros {
+	font-size: 24px;
+}
+
+a.encore-plus-gros {
+	font-size: 30px;
+}
+
+.rouge {
+	color: #6495ED;
+}
+
+#global {
+    height: 570px;
+    left: 50%;
+    margin-left: -490px;
+    margin-top: -300px;
+    position: absolute;
+    top: 50%;
+    width: 980px;
+}
+
+#global #contenu {
+	height: 540px;
+}
+
+#global #contenu #gauche {
+	float: left;
+	width: 430px;
+	height: 540px;
+}
+
+#global #contenu #droite {
+	height: 540px;
+	width: 520px;
+	margin-left: 5px;
+	float: left;
+}
+
+#global #contenu #baseline {
+	float: left;
+	height: 540px;
+	width: 20px;
+	margin-left: 5px;
+}

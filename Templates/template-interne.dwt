@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/template-general.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8" />
+<link href="../css/general.css" rel="stylesheet" type="text/css">
+
+<!-- Pour les navigateurs Smartphone -->
+<!-- Indique aux navigateurs d'afficher la page dans sa grandeur réelle et non dans une zone défini par défaut sur le navigateur (exemple iphone : zone de 960pix -->
+<meta content="width=device-width, user-scalable=yes initial-scale=1.0" name="viewport" />
+
+
+<!-- Pour les IE plus anciens, indique que le navigateur est trop ancien et suggère de migrer vers un navigateur récent -->
+<!--[if lt IE 7]>  <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative; margin-bottom: 20px;'>    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>      <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>      <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>
+Vous utilisez un navigateur ancien.</div>
+<div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>
+Pour un bon usage de ce site, nous vous conseillons d'installer l'un des navigateurs récents suivants :
+</div>      </div>      <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>      <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+<div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'>
+<img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>      <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>    </div>  </div>  <![endif]-->
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<!-- POUR IE 8 ne reconnaissant les nouvelles balises HTML 5 on peut les créer en javascript, sinon il ne les considérera pas dans une relation parent > enfant mais comme étant des frères -->
+<!-- soit -->
+<script>
+document.createElement("article");
+document.createElement("abbr");
+document.createElement("aside");
+document.createElement("audio");
+document.createElement("canvas");
+document.createElement("datalist");
+document.createElement("details");
+document.createElement("figure");
+document.createElement("dialog");
+document.createElement("footer");
+document.createElement("header");
+document.createElement("hgroup");
+document.createElement("mark");
+document.createElement("menu");
+document.createElement("meter");
+document.createElement("nav");
+document.createElement("output");
+document.createElement("progress");
+document.createElement("section");
+document.createElement("time");
+document.createElement("video");
+</script>
+
+<!-- soit : -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Template interne</title>
+ <link rel="stylesheet" href="../menu-interne/style-menu.css" type="text/css" />
+ <link href="../css/interne.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../menu-interne/functions-menu.js"></script>
+<style type="text/css">
+#global div article {
+	background-image: url(../images/detour-ci-26.jpg);
+}
+</style>
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="global">
+<header role="titre-site">
+  <a href="index.html">éditions des cahiers intempestifs</a></header>
+<div role="contenu-principal">
+<!-- InstanceBeginEditable name="contenu principal" -->
+<div id="menu">
+  <div class="menu" id="menu1" onmouseover="affiche(this)" onmouseout="masque(this)"> <a href="cahiers-intempestifs.html">cahiers intempestifs</a>
+    <div class="sousmenu" id="sousmenu1" style="display:none" onmouseout="affiche(this)">
+      <div><a href="cahiers-intempestifs-27.html">27</a> <a href="cahiers-intempestifs-26.html">26</a> <a href="cahiers-intempestifs-25.html">25</a> <a href="cahiers-intempestifs-24.html">24</a> <a href="cahiers-intempestifs-23.html">23</a> <a href="cahiers-intempestifs-22.html">22</a> <a href="cahiers-intempestifs-21.html">21</a> <a href="cahiers-intempestifs-20.html">20</a> <a href="cahiers-intempestifs-19.html">19</a> <a href="cahiers-intempestifs-18.html">18</a> <a href="cahiers-intempestifs-17.html">17</a> <a href="cahiers-intempestifs-16.html">16</a> <a href="cahiers-intempestifs-15.html">15</a> <a href="cahiers-intempestifs-14.html">14</a> <a href="#">13</a> <a href="#">12</a> <a href="#">11</a> <a href="#">10</a> <a href="#">9</a> <a href="#">8</a> <a href="#">7</a> <a href="#">6</a> <a href="#">5</a> <a href="#">4</a> <a href="#">3</a> <a href="#">2</a> <a href="#">1</a></div>
+    </div>
+  </div>
+  <div class="menu" id="menu2" onmouseover="affiche(this)" onmouseout="masque(this)"> <a href="arts-graphiques.html">arts graphiques</a>
+    <div class="sousmenu" id="sousmenu2" style="display:none" onmouseout="affiche(this)">
+      <div><a href="chaine-graphique.html">363 000 signes</a> <a href="hommes-de-caracteres.html">des hommes de caractères 1</a> <a href="hommes-de-caracteres-2.html">des hommes de caractères 2</a></div>
+    </div>
+  </div>
+  <div class="menu" id="menu3" onmouseover="affiche(this)" onmouseout="masque(this)"><a href="box.html">box</a>
+    <div class="sousmenu" id="sousmenu3" style="display:none" onmouseout="affiche(this)">
+      <div><a href="ogni-1.html">1</a> <a href="ogni-2.html">2</a> <a href="ogni-3.html">3</a> <a href="ogni-4.html">4</a> <a href="ogni-5.html">5</a> <a href="ogni-6.html">6</a> <a href="ogni-7.html">7</a> <a href="ogni-8.html">8</a></div>
+   </div>
+  </div>
+  <div class="menu" id="menu4" onmouseover="affiche(this)" onmouseout="masque(this)"><a href="collections.html">autres collection</a>
+    <div class="sousmenu" id="sousmenu4" style="display:none" onmouseout="affiche(this)">
+      <div><a href="pca-legac.html">petits cahiers intempestifs d'artiste</a></div><div><a href="pcv-1.html">petits cahiers intempestifs du vin</a></div><div><a href="monographies-ok.html">monographies</a></div><div><a href="passage-ok.html">passage</a></div><div><a href="lieux-litteraires.html">lieux littéraires</a></div><div><a href="inclassables.html">inclassables</a></div>
+    </div>
+  </div>
+</div>
+
+<article><!-- TemplateBeginEditable name="zone article" -->
+<h1 onMouseOver="afficheIntro('intro')" onMouseOut="masqueIntro('intro')">Titre</h1>
+<h2 id="intro-escamotable">Introduction escamotable<br>
+  Introduction de rubrique<br>
+sur plusieurs lignes pour voir ce que ça donne<br>
+si j'ai plusieurs lignes</h2>
+<!--<h2 id="intro">Introduction de rubrique<br>
+  sur plusieurs lignes pour voir ce que ça donne<br>
+  si j'ai plusieurs lignes
+</h2> -->
+  <p class="lien-ressource"><a href="#">Isaac Julien</a> <a href="#">Tessa Farmer</a> <a href="#">Thomas A Clark</a> <a href="#">Helen Douglas</a></p>
+  <p><a href="#"><img src="../images/couv-ci-26.jpg" width="85" height="105" alt="ci 26"><img src="../images/couv-ci-25.jpg" width="85" height="105" alt="ci 25"><img src="../images/couv-ci-24.jpg" width="85" height="105" alt="ci 24"><img src="../images/couv-ci-23.jpg" width="85" height="105" alt="ci 23"><img src="../images/couv-ci-22.jpg" width="85" height="105" alt="ci 22"><img src="../images/couv-ci-21.jpg" width="85" height="105" alt="ci 21"><img src="../images/couv-ci-20.jpg" width="85" height="105" alt="ci 20"><img src="../images/couv-ci-19.jpg" width="85" height="105" alt="ci 19"><img src="../images/couv-ci-18.jpg" width="85" height="105" alt="ci 18"></a></p>
+  <p class="lien-ressource"><a href="#">Keiichi Matsuda</a> <a href="#">Sharon Kivland</a> <a href="#">Julian Maynard-Smith &amp; Station House Opera</a> <a href="#">Richard Price</a> <a href="#">Forced Entertainment</a></p>
+  <a href="#" title="Achetez cet ouvrage en ligne" id="lien-boutique"> </a><!-- TemplateEndEditable --></article>
+<!-- InstanceEndEditable --></div>
+<nav role="navigation">
+ <ul><li><a href="index.html">accueil</a></li><li><a href="cahiers-intempestifs.html">cahiers intempestifs</a></li><li><a href="arts-graphiques.html">arts graphiques</a></li><li><a href="box.html">box</a></li><li><a href="collections.html">collections</a></li><li> <a href="../blog8.html">ressources</a></li><li><a href="../index.html#apropos">à propos</a></li><li><a href="http://www.cahiers-intempestifs.com/boutique">boutique</a></li></ul>
+  </nav>
+</div>
+</body>
+<!-- InstanceEnd --></html>

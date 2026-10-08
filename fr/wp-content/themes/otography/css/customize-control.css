@@ -1,0 +1,17 @@
+.customize-control .customize-inside-control-row {
+    display: inline-block;
+}
+
+#customize-outer-theme-controls .accordion-section-title, 
+#customize-theme-controls .accordion-section-title {
+	color: #555d66;
+	background-color: #e6e6e6;
+	border-bottom: 1px solid #fff;
+	border-left: 8px solid #999;
+}
+
+#customize-outer-theme-controls .accordion-section-content, 
+#customize-theme-controls .accordion-section-content {
+	color: #555d66;
+	background: #fff;
+}

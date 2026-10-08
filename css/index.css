@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#global div[role="contenu-principal"] {
+	position:relative;
+}
+
+#global div[role="contenu-principal"] #MenuBar1 li .MenuBarItemSubmenu #imgA, #global div[role="contenu-principal"] #MenuBar1 li .MenuBarItemSubmenu #imgZ {
+	position: absolute;
+	left:150px;
+	top:50px;
+}
+
+#global div[role="contenu-principal"] #MenuBar1 li .MenuBarItemSubmenu #imgA{
+	opacity:1;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:2s;
+	-webkit-transition-timing-function:ease;
+	
+	-o-transition-property:opacity;
+	-o-transition-duration:2s;
+	-o-transition-timing-function:ease;
+	
+	transition-property:opacity;
+	transition-duration:2s;
+	transition-timing-function:ease;
+	}
+	
+#global div[role="contenu-principal"] #MenuBar1 li .MenuBarItemSubmenu #imgA:hover{
+	opacity:0;
+	}

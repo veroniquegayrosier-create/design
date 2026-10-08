@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#global div[role="contenu-principal"] {
+	overflow-y: auto;
+}
+#global div[role="contenu-principal"] h2 {
+	font-size: 24px;
+	font-weight: normal;
+	color: #6495ED;
+	margin-bottom: 15px;
+}
+#global div[role="contenu-principal"] object {
+	margin-bottom: 25px;
+}

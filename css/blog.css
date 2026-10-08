@@ -1,0 +1,42 @@
+#global div[role="contenu-principal"] #droite #billet {
+	width: 499px;
+	height:500px;
+	overflow-y: auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#global div[role="contenu-principal"] #droite  #billet h2 {
+	font-size: 24px;
+	font-weight: normal;
+	color: #6495ED;
+	margin-bottom: 10px;
+}
+#global div #droite #billet .date {
+	font-size: 12px;
+	color: #ccc;
+	margin-bottom: 10px;
+}
+#global div #droite #billet p {
+	line-height: 18px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+#global div #droite #num-page {
+	text-align: right;
+	margin-right: 10px;
+}
+#global div #droite #num-page a {
+	color: #666;
+	text-decoration: none;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6495ED;
+	padding-right: 2px;
+	padding-left: 5px;
+}
+#global div #droite #num-page a:hover {
+	color: #6495ED;
+}

@@ -1,0 +1,866 @@
+<!doctype html>
+<html><!-- InstanceBegin template="Templates/general-responsive.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Pour adapter la page sur les mobiles -->
+<link href="css/typo.css" rel="stylesheet" type="text/css">
+<link href="css/general2018.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Commissariat et scénographie d'expositions - Curator and exhibition designer – veronique-gay-rosier.fr</title>
+<meta name="description" content=" Véronique Gay-Rosier : Éditeur & designer graphique, a fondé les éditions des Cahiers intempestifs desquelles elle assure la direction de collection et la direction de création. Webdesigner & community manager, expérimente aussi les arts numériques. Historienne d'art, enseigne le design graphique à l'université Jean-Monnet et produit des expositions [commissariat et scénographie].
+Editor and graphic designer, founder of Cahiers intempestifs (publishing house which specialises on the visual arts, including contemporary art and graphic arts) of which she has been, since the beginning, the editor and art director. Webdesigner and community manager. Experiments with cross-media projects (Augmented Reality, Virtual Reality...)">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148182378-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148182378-1');
+</script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(e) {
+   
+   //debut d'une image
+	$('#image-e1 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e1 .fermer').show();
+		$("#image-e1 img").width(480).height(425);
+		$("#image-e2 img").width(240).height(213);
+		$("#image-e3 img").width(240).height(213);
+		$("#image-e4 img").width(240).height(213);
+		$("#image-e5 img").width(240).height(213);
+		$("#image-e6 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e1 .fermer').hide();
+		$("#image-e1 img").width(240).height(213);
+	});
+	// fin d'une image	
+	
+	$('#image-e2 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e2 .fermer').show();
+		$("#image-e2 img").width(480).height(425);
+		$("#image-e1 img").width(240).height(213);
+		$("#image-e3 img").width(240).height(213);
+		$("#image-e4 img").width(240).height(213);
+		$("#image-e5 img").width(240).height(213);
+		$("#image-e6 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e2 .fermer').hide();
+		$("#image-e2 img").width(240).height(213);
+	});
+	
+	$('#image-e3 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e3 .fermer').show();
+		$("#image-e3 img").width(480).height(425);
+		$("#image-e1 img").width(240).height(213);
+		$("#image-e2 img").width(240).height(213);
+		$("#image-e4 img").width(240).height(213);
+		$("#image-e5 img").width(240).height(213);
+		$("#image-e6 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e3 .fermer').hide();
+		$("#image-e3 img").width(240).height(213);
+	});
+	
+
+
+
+	$('#image-e4 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e4 .fermer').show();
+		$("#image-e4 img").width(480).height(425);
+		$("#image-e1 img").width(240).height(213);
+		$("#image-e2 img").width(240).height(213);
+		$("#image-e3 img").width(240).height(213);
+		$("#image-e5 img").width(240).height(213);
+		$("#image-e6 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e4 .fermer').hide();
+		$("#image-e4 img").width(240).height(213);
+	});
+		
+
+	$('#image-e5 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e5 .fermer').show();
+		$("#image-e5 img").width(480).height(425);
+		$("#image-e1 img").width(240).height(213);
+		$("#image-e2 img").width(240).height(213);
+		$("#image-e3 img").width(240).height(213);
+		$("#image-e4 img").width(240).height(213);
+		$("#image-e6 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e5 .fermer').hide();
+		$("#image-e5 img").width(240).height(213);
+	});
+	
+	
+	$('#image-e6 img').click(function(){
+		$('.fermer').hide();
+		
+		$('#image-e6 .fermer').show();
+		$("#image-e6 img").width(480).height(425);
+		$("#image-e1 img").width(240).height(213);
+		$("#image-e2 img").width(240).height(213);
+		$("#image-e3 img").width(240).height(213);
+		$("#image-e4 img").width(240).height(213);
+		$("#image-e5 img").width(240).height(213);
+		
+	});
+	
+	$('.fermer').click(function(){
+		$('#image-e6 .fermer').hide();
+		$("#image-e6 img").width(240).height(213);
+	});
+	
+});
+
+
+</script>
+
+
+<script>
+
+
+$(document).ready(function(){ 
+
+$('.traduction-anglais').click(function(){
+	//alert('coucou');
+	$('.description-anglais').show();
+	$('.description-français').hide();
+  });
+
+$('.traduction-français').click(function(){
+	//alert('coucou');
+	$('.description-français').show();
+	$('.description-anglais').hide();
+  });
+  
+	
+	$('#sommaire-tiroir-carre').click(function(){
+		$('.tiroir-carre').toggleClass('pos-ok-carre');
+	});
+	
+	$('#sommaire-tiroir-carre1').click(function(){
+		$('.tiroir-carre1').toggleClass('pos-ok-carre1');
+	});
+	
+	$('#sommaire-tiroir-carre2').click(function(){
+		$('.tiroir-carre2').toggleClass('pos-ok-carre2');
+	});
+	
+	$('#sommaire-tiroir-carre3').click(function(){
+		$('.tiroir-carre3').toggleClass('pos-ok-carre3');
+	});
+	
+	$('#sommaire-tiroir-carre4').click(function(){
+		$('.tiroir-carre4').toggleClass('pos-ok-carre4');
+	});
+	
+	$('#sommaire-tiroir-carre5').click(function(){
+		$('.tiroir-carre5').toggleClass('pos-ok-carre5');
+	});
+	
+	$('#sommaire-tiroir-carre6').click(function(){
+		$('.tiroir-carre6').toggleClass('pos-ok-carre6');
+	});
+	
+	
+
+
+
+});
+
+</script>
+
+
+  
+
+<!-- InstanceEndEditable -->
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/slideshow.js"></script>
+<!--<script src="../js/hover-iphone.js"></script>-->
+<script src="js/jquery.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+<script>
+
+(function($){ //create closure so we can safely use $ as alias for jQuery
+
+	$(document).ready(function(){
+
+		// initialise plugin
+		var example = $('#example').superfish({
+			//add options here if required
+		});
+
+		// buttons to demonstrate Superfish's public methods
+		$('.destroy').on('click', function(){
+			example.superfish('destroy');
+		});
+
+		$('.init').on('click', function(){
+			example.superfish();
+		});
+
+		$('.open').on('click', function(){
+			example.children('li:first').superfish('show');
+		});
+
+		$('.close').on('click', function(){
+			example.children('li:first').superfish('hide');
+		});
+	});
+
+})(jQuery);
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	
+	$('#menu-principal-r').click(function(){
+		//
+		$('#menu-hamburger').toggle();
+
+	});
+	
+	
+	$('#menu-hamburger').click(function(){
+		$('#menu-hamburger').toggle();
+		//alert('test');
+	});
+	
+});
+</script>
+
+<!-- InstanceBeginEditable name="head" -->
+<link href="css/general2018.css" rel="stylesheet" type="text/css">
+<link href="css/interne2018.css" rel="stylesheet" type="text/css">
+<link href="css/index2018.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<a id="haut"></a>
+<div id="page">
+<!-- Début Menu Responsive -->
+ <div id="menu-principal-r">
+	
+    <img src="images/logo-menu.png">
+    
+    
+    <div class="home-r"><a href="index.html" title="retour Accueil"><img src="images/logo-home.png"></a></div>
+    
+    
+ </div> 
+ 
+ <div id="menu-hamburger">
+    <ul>
+         <li><a href="edition.html#haut2">édition [art contemporain]</a></li>
+         <li><a href="design-objets.html">design de petits objets</a></li>
+         <li><a href="arts-numeriques.html">arts numériques</a></li>
+         <li><a href="design-graphique.html">design graphique</a></li>
+         <li><a href="expositions.html">commissariat & scénographie</a></li>
+         <li><a href="recherche-enseignement.html">enseignement</a></li>
+         <li><a href="about-veronique-gay-rosier.html">curriculum vitæ détaillé</a></li>
+         <li><a href="photographies.html">photographie &amp; vidéo</a></li>
+         <li><a href="portfolio.html">portfolio</a></li>
+         <li><a href="intempestive-factory.html">blog intempestive factory</a></li>
+         <li><a href="formulaire-contact.php">contact</a></li>
+   </ul>     
+ </div>   
+
+<!-- Fin Menu responsive-->
+
+
+
+<!-- Début Menu Sur grand ecran -->
+<nav id="menu-principal">
+	<span id="titre-menu"> </span>
+     	  <ul id="menu">
+            <li><a href="index.html">Véronique Gay-Rosier</a></li>
+            <li><a href="index.html#zone-actu">sommaire</a></li>
+            <li><a href="about-veronique-gay-rosier.html">à propos</a></li>
+       </ul>       
+  </nav>
+    <nav id="reseaux-sociaux">
+    	<a href="index.html#zone-actu"><span>menu</span></a></span>
+   	    <ul id="menu-social">
+            <li><a href="edition.html">Édition</a></li>
+        	<li><a href="design-graphique.html">Graphisme</a></li>
+            <li><a href="design-objets.html">Design</a></li>
+            <li><a href="arts-numeriques.html">Numérique</a></li>
+            <li><a href="expositions.html">Scénographie</a></li>
+        </ul>
+    </nav>  
+<!-- Fin Menu Sur grand ecran -->
+<header id="logo-ci"><a href="index.html">véronique gay<span class="texte-bleu">-</span>rosier</a></header>
+<!-- InstanceBeginEditable name="haut-bas" -->
+<div id="fleche-haut"> <a href="expositions.html#haut2"><img src="images/fleche-haut.png" width="50" height="50" alt="Vers le bas"></a></div>
+<div id="fleche-bas"> <a href="expositions.html#bas2"><img src="images/fleche-bas.png" width="50" height="50" alt="Vers le bas"></a></div>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name="contenu" -->
+
+<div id="contenu">
+  <p><a id="haut2"></a></p> 
+<section>
+ <article>
+ <a id="arbre-labyrinthe"></a>
+
+
+
+ 
+  <h1>Commissariat et scénographie</h1>
+	<div><img src="images/expo-recto-verso.jpg" width="100%" ></div>
+  		<p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+
+ 
+  
+  <p>&nbsp;</p>
+       
+        <h3><span class="texte-bleu-bas-de-casse">De l'arbre au labyrinthe</span></h3>
+        <p> <strong>Dans le cadre de la Biennale Internationale Design 2022</strong></p>
+   <p><img src="images/arbre-labyrinthe-2.jpg" width="100%" ></p>
+  
+  	<p><strong>¬ </strong>«&nbsp;De l’arbre au labyrinthe&nbsp;» <span data-offset-key="4dn9v-4-0"><span data-text="true">ou comment dérivations imaginaires, trouvailles fortuites, font jaillir un nouvel ordre qui est l&rsquo;essence même de la création et favorisent l&rsquo;émergence de nouvelles formes d&rsquo;écriture.</p>
+  <aside class="galerie">
+  	  
+  	  <ul>
+	<li><img src="images/arbre-labyrinthe-3.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-1.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-4.jpg" alt="" /></li>
+</ul>
+
+</aside>
+    <p>Depuis la présentation de cartes heuristiques issues de manuscrits patrimoniaux jusqu&rsquo;à la découverte d&rsquo;un parcours artistique, cette exposition entend explorer comment la théorie des bifurcations qui a inspiré l&rsquo;informatique peut aussi être reconsidérée à l&rsquo;aune de la créativité humaine.</p>
+    <aside class="galerie">
+  	  
+  	  <ul>
+	<li><img src="images/arbre-labyrinthe-29.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-28.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-27.jpg" alt="" /></li>
+</ul>
+
+</aside>
+    <p>
+      Elle entend surtout explorer comment nos racines culturelles ont inspiré les formes d'expression numérique contemporaines les plus novatrices.</p>
+    
+    
+
+
+     
+    <p></strong>[ <a href="images/texte-arbre-labyrinthe-biennale-design-veronique-gay-rosier.pdf" target="_blank"><span class="texte-bleu-bas-de-casse">télécharger le texte</span></a> ]</p>
+    
+    
+
+  	
+    
+  	
+       <p>&nbsp;</p>
+       <aside class="galerie">
+  	  
+  	  <ul>
+	<li><img src="images/arbre-labyrinthe-21.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-13.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-17.jpg" alt="" /></li>
+</ul>
+<ul>
+	<li><img src="images/arbre-labyrinthe-20.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-15.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-18.jpg" alt="" /></li>
+</ul>
+<p><strong>¬ Alice Baude, Si nos pas laissaient des traces</strong><br>
+Dans le but d’écrire l’histoire collective du confinement lié à la pandémie de Covid 19, Alice Baude propose au visiteur une installation labyrinthique au sein de laquelle il pourra, par sa simple déambulation, découvrir une narration sans cesse renouvelée. Les lais de papier [où sont écrits des groupes de mots] qui composent ce labyrinthe sont installés aléatoirement, invitant ainsi, dès l’accrochage, une combinaison de phrases et d’histoires laissées au hasard. Le spectateur est ensuite invité à se perdre, à tourner en rond, pour expérimenter et écrire lui-même un récit inépuisable et mouvant, inscrivant ainsi l’œuvre d’Alice Baude dans le droit fil de la poésie générative combinatoire.<br>
+«Ce nouveau vocabulaire de la pandémie : « masques FFP2 », « isolés », « 14 jours d’incubation » réinvoque l’expérience collective dans tout ce qu’elle a de caractéristique et d’anormale. Faisant partie d’un passé à la fois frais et enfoui, cette poésie combinatoire du premier confinement induit des données, des chiffres qui sont passés d’actualité. Si nos pas laissaient des traces invite à réfléchir sur la vacuité, sur l’idée que nous ne faisons que passer.» Alice Baude</p>
+
+</aside>
+  	
+  	
+    <p>&nbsp;</p>
+       <aside class="galerie">
+  	  
+  	  <ul>
+	<li><img src="images/arbre-labyrinthe-12.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-23.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-22.jpg" alt="" /></li>
+</ul>
+<p><strong>¬ Marie Denis, L’herbier californien</strong><br>
+Marie Denis parcourt les paysages, observe et collecte les végétaux et autres matières naturelles ou recyclées, qu’elle force ou façonne. Touchée par la capacité des végétaux à créer des formes, inspirée par la nature comme « substance nourricière » [selon ses termes], elle expérimente des techniques de sculpture, tressage, assemblage de matières diverses – brutes ou détournées – créant des chimères [au sens botanique du terme].<br>
+En transformant le végétal, elle pose un regard inédit sur la flore et en explore l’envers. Chaque matière devient sujet à renversements, interprétations et basculements. L’irruption de l’imprévisible, comme la nature l’est elle-même, est une des lignes directrice de son travail. Marie Denis a le « don de faire par hasard et sagacité des découvertes inattendues et fructueuses » qu’elles déploient en les métamorphosant, entre autres, sous la forme d’herbiers, souvent posés à plat au sol, dans des installations qui s’apparentent à la fois à des cabinets de curiosités et à des jardins.</p>
+<ul>
+	<li><img src="images/arbre-labyrinthe-51.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-52.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-53.jpg" alt="" /></li>
+</ul>
+<ul>
+	<li><img src="images/arbre-labyrinthe-54.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-55.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-56.jpg" alt="" /></li>
+</ul>
+<p><strong>¬ Philippe Favier, Erik Dietman, Fabrice Hybert, Robert Combas, Cadavre exquis</strong><br>
+Le jeu du Cadavre exquis inventé par les surréalistes est par définition un « jeu de papier plié qui consiste à faire composer une phrase ou un dessin par plusieurs personnes, sans qu’aucune d’elles puisse tenir compte de la collaboration ou des collaborations précédentes ». « le cadavre – exquis – boira – le – vin – nouveau » en demeure un exemple célèbre. C’est, en effet, cette première phrase d’un texte obtenu d’une telle manière qui donnera son nom au jeu.<br>
+En 1998 Erik Dietman, Fabrice Hybert, Robert Combas, sous la houlette de Philippe Favier acceptent de rejouer le jeu surréaliste : 200 dessins répartis en 5 cadavres exquis [sous forme de rouleau] verront le jour et seront projetés sur écran géant dans le cadre des projets artistiques qui jalonnent et accompagnent la Coupe du monde de football.</p>
+<p>&nbsp;</p>
+<aside class="galerie">
+  	  
+<ul>
+	<li><img src="images/arbre-labyrinthe-58.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-37.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-36.jpg" alt="" /></li>
+</ul>
+<ul>
+	<li><img src="images/arbre-labyrinthe-61.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-59.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-60.jpg" alt="" /></li>
+</ul>
+</aside>
+
+<p>• <em>Le Grand Livre</em>, Philippe Favier [Planches de dessin rehaussées à la main – Pièce unique. Éditeur : Bernard Chauveau] 2009.</p>
+<aside class="galerie">
+  	  
+<ul>
+	<li><img src="images/arbre-labyrinthe-32.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-31.jpg" alt="" /></li>
+	<li><img src="images/arbre-labyrinthe-33.jpg" alt="" /></li>
+</ul>
+</aside>
+
+<p><em>La Mer des hystoires</em> [Chronique universelle de la Création au règne de Louis XII] 1506.</p>
+<p><br>
+  Autres ouvarges exposés :
+  <br>
+  •<em> Les Rougon-Macquart</em>, Emile Zola, 1906.
+  <br>
+  •<em> Metallotheca Vaticana, </em>Michele Mercati<em> </em>[Catalogue de l'ancienne métallothèque du Vatican]  1719.
+  <br>
+  •<em> Traité de minéralogie Haüy,</em> Abbé René Just, 1801.
+  <br>
+  • <em>La Grande Glose sur le droit, </em>Franciscus Accursius<em> </em>[Compilation, manuel de droit des commentaires des jurisconsultes sur le Code de Justinien] 1493-1494.
+  <br>
+  •<em> Tables anatomiques avec les pourtraicts et déclaration d'iceulx ensemble un dénombrement de cinq cens maladies diverses</em>, Jacques Guillemeau, 1586.
+  <aside class="galerie">
+  	  
+<ul>
+	<li><img src="images/codex-10.jpg" alt="" /></li>
+	<li><img src="images/ringolevio-25.jpg" alt="" /></li>
+	<li><img src="images/codex-8.jpg" alt="" /></li>
+</ul>
+</aside>
+ 
+  •<em> Un coup de dés jamais n'abolira le hasard</em>, Stéphane Mallarmé, 1952.
+  <br>
+  •<em> RingoleV.io Cosmique</em>, Maxime Duveau, 2018.</p>
+  <br>
+  •<em> Cent mille milliards de poèmes,</em> Raymond Queneau, 1989.
+  
+<p>&nbsp;</p>
+<div class="description-français">
+  	<p><strong>¬ </strong>Où l’on pénètre enfin dans le labyrinthe</p>
+  	<div class="traduction-anglais">[ Cliquez pour vous y perdre! ]</div>
+  </div>
+  <p>&nbsp;</p>
+  <div class="description-anglais">
+  <h3><span class="texte-bleu-bas-de-casse">Où l’on pénètre enfin dans le labyrinthe, l’on a d’étranges visions et, comme il arrive dans les labyrinthes, on s’y perd.</span></h3>
+  <p>Nous remontâmes au scriptorium, cette fois par l’escalier oriental, qui donnait aussi accès à l’étage interdit, la lampe haute devant nous. Moi je songeais aux paroles d’Alinardo sur le labyrinthe et je m’attendais à des choses épouvantables. Je fus surpris, quand nous émergeâmes dans le lieu où nous n’aurions pas dû entrer, de me trouver dans une salle à sept côtés, pas très vaste, dénuée de fenêtres, où régnait, comme du reste dans tout l’étage, une forte odeur de renfermé et de moisissure. Rien de terrifiant. La salle, dis-je, avait sept parois, mais sur quatre d’entre elles seulement s’ouvrait, entre deux colonnettes encastrées dans le mur, un passage assez large surmonté d’un arc en plein cintre. Umberto Eco, <em>Le Nom de la rose</em> <p><p> 
+  <p>«A bien observer le plan, je me rendis compte de la singularité de cette pièce. Comme chaque pièce aveugle des trois autres tours, elle aurait dû desservir la salle heptagonale centrale. Si elle ne le faisait pas, l’entrée dans l’heptagone aurait dû s’ouvrir dans la pièce adjacente, la U. Celle-ci pourtant, qui desservait par une ouverture une pièce T avec fenêtre sur l’octogone intérieur, et par l’autre communiquait avec la pièce S, avait ses trois autres murs pleins et occupés-par des armoires. En jetant un regard circulaire, nous relevâmes ce. qui désormais était évident, même en lisant notre plan : pour des raisons de logique outre que de rigoureuse symétrie, cette tour devait avoir sa salle heptagonale, mais elle n’existait pas.» Umberto Eco, <em>Le Nom de la rose</em> <p>
+ 
+       <aside class="galerie">
+       	<ul>
+			<li><img src="images/arbre-labyrinthe-46.jpg" alt="" /></li>
+			<li><img src="images/arbre-labyrinthe-43.jpg" alt="" /></li>
+			<li><img src="images/arbre-labyrinthe-44.jpg" alt="" /></li>
+		</ul>
+         <p>[Croquis de préparation pour la scénographie]</p>
+         <p>&nbsp;</p>
+ <p>L'heptagone qui acceuille le jardin intérieur, cabinet de curiosités, de Marie Denis, a été conçu en référence à la salle heptagonale centrale de la biblothèque du roman d'Umberto Eco. Cet élément central de la scénographie peut également être lu comme une référence au personnage principal du film  <em>2001, l’Odyssée de l’espace</em>  l’ordinateur surintelligent Hal.</p>
+ <p>&nbsp;</p>
+ «Hal est maître à bord du «Discovery», le vaisseau spatial qui se dirige vers Jupiter. Pourquoi l’avons-nous appelé Hal ? Arthur Clarke et moi voulions à tout prix lui donner un nom humain. En fait, son nom est un sigle composé avec les initiales du nom des deux méthodes de connaissance et de communication : l’heuristique (l’éducation par l’expérience) et l’algorythmique (la possibilité de formulation).»Stanley Kubrick [Article paru dans <em>Le Nouvel Observateur</em> n° 202,1968]</p>  
+ 	  
+  	  
+		<ul>
+			<li><img src="images/arbre-labyrinthe-40.jpg" alt="" /></li>
+			<li><img src="images/arbre-labyrinthe-41.jpg" alt="" /></li>
+			<li><img src="images/arbre-labyrinthe-42.jpg" alt="" /></li>
+		</ul>
+	</aside>
+     <p>Signalétique de l'exposition[Graphisme : Véronique Gay-Rosier. Sérigraphique : Delphine Chapuis, Estampille sérigraphie] <p> 
+     <p>&nbsp;</p>
+     <p><em>De l'arbre au labyrinthe</em> Bibliothèque centrale de Tarentaize, du 4 avril au 31 juillet 2022, dans le cadre de la Biennale Internationale Design Saint-Étienne 2022.
+     <p>&nbsp;</p>[Merci aux artistes qui ont accepté de se joindre à l'aventure, aux collectionneurs qui ont bien voulu nous prêter des pièces jamais exposées. Merci à l'équipe de la médiathèque qui m'a fait confiance et s'est pleinement impliqué dans la conception de cette exposition : Axelle Redon, Philippe Georjons, Fatiha Bekti, Geneviève Saby.]
+     <p> 
+     
+    
+    <div class="traduction-français">[ Fermer ]</div>   
+ </div>
+<br>
+
+
+       
+<a id="recto-verso"></a>
+  	<p>&nbsp;</p>
+    
+    <div class="content">
+
+	<div id="image-e1">
+    <div class="fermer">X</div>
+    <a href="expositions.html#type-is-sexy"><img src="images/image-e1.jpg"></a>
+    <div class="legende">Type is Sexy</div>
+    </div>
+    
+    <div id="image-e2">
+    <div class="fermer">X</div>
+    <a href="expositions.html#recto-verso"><img src="images/image-e2.jpg"></a>
+    <div class="legende">Recto-Verso</div>
+    </div>
+    
+    <div id="image-e3">
+    <div class="fermer">X</div>
+    <a href="expositions.html#un-traite-imprevu"><img src="images/image-e3.jpg"></a>
+    <div class="legende">Un Traité imprévu</div>
+    </div>
+    
+    
+    <div id="image-e4">
+    <div class="fermer">X</div>
+    <a href="expositions.html#arbre-labyrinthe"><img src="images/image-e4.jpg"></a>
+    <div class="legende">De l'arbre au labyrinthe</div>
+    </div>
+    
+    <div id="image-e5">
+    <div class="fermer">X</div>
+    <a href="expositions.html#manifestations"><img src="images/image-e5.jpg"></a>
+    <div class="legende">Manifestations culturelles</div>
+    </div>
+    
+    
+    <div id="image-e6">
+    <div class="fermer">X</div>
+    <a href="expositions.html#exposee-dans"><img src="images/image-e6.jpg"></a>
+    <div class="legende">Design map & World Wide Things</div>
+    </div>
+    
+  </div>
+  <div style="clear:both"></div>
+  <p>&nbsp;</p>
+    
+
+  	
+<aside class="galerie">
+<h3><span class="texte-bleu-bas-de-casse">recto/verso</span> La page à l'ouvrage</h3>
+<ul>
+<li><img src="images/expo-page-2.jpg" alt="" /></li>
+<li><img src="images/expo-page-13.jpg" alt="" /></li>
+<li><img src="images/expo-page-1.jpg" alt="" /></li>                     
+</ul>
+<ul>
+<li><img src="images/expo-page-6.jpg" alt="" /></li>
+<li><img src="images/expo-page-11.jpg" alt="" /></li>
+<li><img src="images/expo-page-9.jpg" alt="" /></li>
+</ul>
+</aside>
+<a id="type-is-sexy"></a>
+<p> <strong>Dans le cadre de la Biennale Internationale Design 2017</strong><br>
+  [Aucun système philosophique n'a eu sur notre entendement autant de répercussions que l'apparition de la page. Depuis l'invention du codex jusqu'à internet, la page a cadré notre pensée. Elle a eu une influence sans égal sur le développement de notre société, sur notre manière de rapporter l'image du monde, et de diffuser notre savoir. La page a toujours été vecteur de pouvoir intellectuel et économique. Ses mutations ont ordonné le monde du travail et continuent aujourd'hui à le transformer.] </p>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+<aside class="galerie">
+<h3>Type is Sexy <span class="texte-bleu-bas-de-casse">Intempestive Esperluette</span></h3>
+<ul>
+ <li><img src="images/expo-esperluette-1.jpg" alt="" /></li>
+<li><img src="images/expo-esperluette-2.jpg" alt="" /></li>
+<li><img src="images/expo-esperluette-4.jpg" alt="" /></li>
+</ul>
+<ul>
+<li><img src="images/expo-esperluette-6.jpg" alt="" /></li>
+<li><img src="images/expo-esperluette-atelier-1.jpg" alt="" /></li>
+<li><img src="images/expo-esperluette-atelier-3.jpg" alt="" /></li>
+</ul>
+</aside>
+
+
+<aside class="galerie">
+<h3>Type is Sexy <span class="texte-bleu-bas-de-casse">Helvetica mon amour</span></h3>
+<ul>
+<li><img src="images/expo-helvetica-5.jpg" alt="" /></li>
+<li><img src="images/expo-helvetica-6.jpg" alt="" /></li>
+<li><img src="images/expo-helvetica-7.jpg" alt="" /></li>
+</ul>
+</aside>
+
+
+
+<aside class="galerie">
+<h3>Type is Sexy <span class="texte-bleu-bas-de-casse">Art, édition, musique &amp; typographie</span></h3>
+<ul>
+<li><img src="images/expo-rock-3.jpg" alt="" /></li>
+<li><img src="images/expo-rock-2.jpg" alt="" /></li>
+<li><img src="images/expo-rock-4.jpg" alt="" /></li>
+</ul>
+</aside>
+
+<a id="un-traite-imprevu"></a>
+ <a id="traite-imprevu"></a>
+ 
+<p><strong>Dans le cadre de la Biennale Internationale Design 2015</strong><br>
+  [Type is sexy ambitionne de rendre, à la typographie, la saveur de son histoire et le goût de ses créations contemporaines. Via 3 thématiques cette exposition, sur 3 lieux, invite à la découverte de ce versant du design graphique souvent méconnu. ]</p>
+  
+<p>&nbsp;</p>
+
+  <h3><span class="texte-bleu-bas-de-casse">Un traité imprévu [Design by Cahiers intempestifs]</span></h3>
+    <p>Dans le cadre de la 11<sup>e</sup> Biennale Internationale Design 2019</p>
+  
+  	
+  	<aside class="galerie">
+  	  
+  	  <ul>
+	<li><img src="images/expo-biennale-design-2019-1.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-10.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-16.jpg" alt="" /></li>
+</ul>
+<ul>
+	<li><img src="images/expo-biennale-design-2019-13.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-11.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-12.jpg" alt="" /></li>
+</ul>
+<p>Rétrospective de 25 années d'édition</p>
+  
+ 	<video width="62%" controls loop poster= "images/traite-imprevu-poster.jpg" >
+    	<source src="video/delivrons-nous.mp4"sr type="video/mp4">   
+    </video> 
+<ul>
+	<li><img src="images/expo-biennale-design-2019-3.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-14.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-15.jpg" alt="" /></li>
+</ul>
+<ul>
+	<li><img src="images/expo-biennale-design-2019-6.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-2.jpg" alt="" /></li>
+	<li><img src="images/expo-biennale-design-2019-7.jpg" alt="" /></li>
+</ul>
+</aside>
+	
+
+  <p>&nbsp;</p>
+  <h2><a id="voyage-inaccompli"></a>Aller en quête de ports inexistants</h2>
+  <p>&nbsp;</p>
+<p>
+  <video width="100%" controls loop  poster= "images/voyage-inaccompli-poster.jpg">
+    <source src="video/journey-never-made.mp4"sr type="video/mp4">
+  </video>
+   <a id="manifestations"></a>
+  <a id="design-map"></a>
+  <p>L'exposition «&nbsp;Un Traité imprévu [Design by Cahiers intempestifs]&nbsp;» a été l'occasion de revisiter <em>Le voyage inaccompli</em> de Fernando Pessoa qui fut le premier texte publié en 1993 par la maison d'édition.</p>
+
+
+  
+ 
+ <p>&nbsp;</p>
+ <div id="fleche-haut-interne"> <a href="expositions.html#haut2"><img src="images/fleche-haut.png" width="50" height="50" alt="haut de page">Commissariat et scénographie</a></div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><span class="texte-bleu-bas-de-casse">Festival Hurricane</span> Animations de papier</h3>
+<p><img src="images/hurricane-7.jpg" width="80%" alt="festival Hurricane création Véronique Gay-Rosier"></p>
+<p>Tout ce dont vous avez besoin pour faire un film, c’est d’un ventilateur et d’une lampe de vélo !<br>
+</p>
+<p><img src="images/hurricane-14.jpg" width="80%" alt="festival Hurricane création Véronique Gay-Rosier"></p>
+<p>C’est à la poésie, à la liberté formelle, d’un Michel Gondry que ce Festival voulait rendre hommage. À la puissance inventive de l’enfance, au DIY et au bricolage de génie, à la créativité maison capable de fédérer autour de la fabrication et de la projection d’images. Paraphrasant la célèbre déclaration de Jean-Luc Godard « All you need for a movie is a gun and a girl », il invitait chacun à réaliser un court métrage avec comme mot d’ordre : « Tout ce dont vous avez besoin pour faire un film, c’est d’un ventilateur et d’une lampe de vélo ! ». La contrainte était de faire du papier un des acteurs de son film. Pour y participer rien de plus simple : il suffisait de découper ses décors et ses personnages dans du papier, puis de les animer en créant des jeux d’ombre et de lumière avec une lampe de vélo (ou une torche), et en déchaînant la tempête avec un ventilateur (ou un sèche-cheveux). Pour ceux qui ne voulaient pas animer en volume des personnages de papier, le festival était ouvert à toutes techniques d’animation utilisant le papier même en 2 dimensions comme le Cut-out voire les Gif animés de papier découpé.</p>
+<aside class="galerie">
+<ul>
+<li><img src="images/hurricane-41.jpg" alt="" /></li>
+<li><img src="images/hurricane-31.jpg" alt="" /></li>
+<li><img src="images/puce-enchantee-decor.jpg" alt="" /></li>                      
+</ul>
+<ul>
+<li><img src="images/hurricane-1.jpg" alt="" /></li>
+<li><img src="images/hurricane-8.jpg" alt="" /></li>
+<li><img src="images/hurricane-10.jpg" alt="" /></li>                      
+</ul>
+</aside>
+<p><img src="images/hurricane-5.jpg" width="80%" alt="festival Hurricane création Véronique Gay-Rosier"></p>
+<aside class="galerie">
+<ul>
+<li><img src="images/hurricane-soiree.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree8.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree6.jpg" alt="" /></li>                      
+</ul>
+<ul>
+<li><img src="images/hurricane-soiree7.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree2.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree4.jpg" alt="" /></li>                      
+</ul>
+</aside>
+ <p>&nbsp;</p>
+ <!--
+<video width="80%" controls loop poster= "images/oscar-poster.jpg" >
+    	<source src="video/oscar-mon-pere.mp4"sr type="video/mp4">   
+    </video>
+    <p><em>Oscar & Mon père</em> : Simon Zagari</p>
+    <p>&nbsp;</p>
+   
+    <video width="80%" controls loop poster= "images/chrono-poster.jpg" >
+    	<source src="video/chrono.mp4"sr type="video/mp4">   
+    </video> -->
+    <p>&nbsp;</p>
+<aside class="galerie">
+<ul>
+<li><img src="images/hurricane-soiree10.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree12.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree14.jpg" alt="" /></li>                      
+</ul>
+<ul>
+<li><img src="images/chronomelopee-2.jpg" alt="" /></li>
+<li><img src="images/chronomelopee-5.jpg" alt="" /></li>
+<li><img src="images/chronomelopee-3.jpg" alt="" /></li>                      
+</ul>
+<ul>
+<li><img src="images/hurricane-soiree11.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree15.jpg" alt="" /></li>
+<li><img src="images/hurricane-soiree13.jpg" alt="" /></li>                      
+</ul>
+</aside>
+<p><em>Chronomélopée</em> : Christèle Delaur, Christophe Casu, Michel Falzone</p>
+<p>&nbsp;</p>
+    <!--<video width="80%" controls loop poster= "images/puce-poster.jpg" >
+    	<source src="video/festival-hurricane-puce-enchantee.mp4"sr type="video/mp4">   
+    </video>
+    </aside>
+      <a id="exposee-dans"></a>
+    <p><em>Attraper une ombre : La Puce enchantée</em> Jacques Barry, Jean-Noël Blanc, Véronique Gay-Rosier
+et pour la musique Fantastic Twins</p>--> 
+  
+
+ <p>&nbsp;</p>
+ <p> Mais encore
+ <p><strong>¬</strong> Franck Chalendard [Centre de formation du Groupe Casino]</p>
+ <p><strong>¬</strong> Les années 60 [Centre de formation du Groupe Casino, en collaboration avec le musée d'Art moderne et contemporain de Saint-Étienne métropole]</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<h3> Exposée dans :  </h3>
+<h3><span class="texte-bleu-bas-de-casse">Design Map</span> Designers créateurs de valeurs pour l'entreprise</h3>
+<aside class="galerie">
+<ul>
+<li><img src="images/designmap-3.jpg" alt="" /></li>
+<li><img src="images/designmap-1.jpg" alt="" /></li>
+<li><img src="images/designmap-2.jpg" alt="" /></li>                      
+</ul>
+</aside>
+<p>Organisées par la Cité du design, les expositions «&nbsp;Design map, designers créateurs de valeurs pour l’entreprise&nbsp;» dressent une cartographie des dynamiques créatives de design dans le développement économique et l'innovation. Elles valorisent la collaboration entre un designer et une entreprise et mettent en avant les différents bénéfices (image, rentabilité, marché, innovation) qui en résultent pour renforcer la compétitivité des entreprises. Le duo Gutenberg/Véronique Gay-Rosier a été sélectionné dans l'édition 2015 pour y présenter sa collection des bOx.</p>
+<p>&nbsp;</p>
+
+<h3><span class="texte-bleu-bas-de-casse">World Wide Things</span> Designmonat Graz</h3>
+<img src="images/actualite-designmomat.jpg" width="100%" alt="Designmonat">
+<p>Parmi les 3 designers sélectionnés pour représenter la France au festival Designmonat Graz 2019 [en compagnie du duo Blandine Leroudier/Éric Jourdan et Pascaline de Glo de Besses]. Le coffret <a href="design-objets.html#image">Image bOx</a> a été présenté dans l’exposition «&nbsp;World Wide Things&nbsp;». <br>
+  Sous l'égide de UNESCO Cities of Design, cette exposition a accueilli du 11 mai au 9 juin 2019 les travaux de designers de différentes nationalités (États-Unis, Mexique, Turquie, Autriche, Singapour, France).</p>
+<aside class="galerie"><ul>
+  <li><img src="images/graz1.jpg" alt="" /></li>
+<li><img src="images/graz2.jpg" alt="" /></li>
+<li><img src="images/graz3.jpg" alt="" /></li>
+</ul>
+</aside>
+<div id="fleche-retour-sommaire"> <a href="index.html#zone-actu"><img src="images/fleche-gauche.png" width="50" height="50" alt="retour sommaire"></a>
+      <a href="index.html#zone-actu" target="_blank">Retour au sommaire</a></div>
+      </article>
+<p><a id="bas2"></a></p>
+
+<!--<div id="menu-reseau-footer">
+<ul>
+          <li><a href="https://www.facebook.com/cahiers.intempestifs" target="_blank" class="grayscale-hover"><img src="images/logo-facebook-over.png" ></a></li>
+          <li id="menu-reseau-footer ul li"><a  href="https://www.instagram.com/veroniquegayrosier/" target="_blank" class="grayscale-hover"><img src="images/logo-instagram-over.png" ></a></li>
+          <li id="menu-reseau-footer ul li"><a href="https://fr.wikipedia.org/wiki/Cahiers_intempestifs" target="_blank" class="grayscale-hover"><img src="images/logo-wikipedia-over.png" ></a></li>
+</ul>
+    </div>
+    <p style="clear:both;">&nbsp;</p>-->
+     <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    
+    <div class="content">
+
+	<div id="image-e1">
+    <div class="fermer">X</div>
+    <a href="expositions.html#type-is-sexy"><img src="images/image-e1.jpg"></a>
+    <div class="legende">Type is Sexy</div>
+    </div>
+    
+    <div id="image-e2">
+    <div class="fermer">X</div>
+    <a href="expositions.html#recto-verso"><img src="images/image-e2.jpg"></a>
+    <div class="legende">Recto-Verso</div>
+    </div>
+    
+    <div id="image-e3">
+    <div class="fermer">X</div>
+    <a href="expositions.html#un-traite-imprevu"><img src="images/image-e3.jpg"></a>
+    <div class="legende">Un Traité imprévu</div>
+    </div>
+    
+    
+    <div id="image-e4">
+    <div class="fermer">X</div>
+    <a href="expositions.html#arbre-labyrinthe"><img src="images/image-e4.jpg"></a>
+    <div class="legende">De l'arbre au labyrinthe</div>
+    </div>
+    
+    <div id="image-e5">
+    <div class="fermer">X</div>
+    <a href="expositions.html#manifestations"><img src="images/image-e5.jpg"></a>
+    <div class="legende">Manifestations culturelles</div>
+    </div>
+    
+    
+    <div id="image-e6">
+    <div class="fermer">X</div>
+    <a href="expositions.html#exposee-dans"><img src="images/image-e6.jpg"></a>
+    <div class="legende">Design map & World Wide Things</div>
+    </div>
+    
+  </div>
+  <div style="clear:both"></div>
+
+
+
+</section>
+</div>
+
+
+
+<!-- InstanceEndEditable -->
+<a id="bas"></a>
+</div>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import "gride.css";
+
+@import "filter.css";
+
+#img-acceuil > div {
+	-webkit-transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	-ms-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	transition: opacity 2s;
+}
+
+body{
+	font-family: 'futura_std_lightregular', Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	margin:0;
+	padding:0;
+	line-height:2em;
+}
+
+a {
+	color:#000;
+	text-decoration:none;
+	cursor:Crosshair;
+	
+}
+
+
+a:hover {
+	color:#6495ED;
+}
+
+#logo-ci {
+		-webkit-transform-origin: 100% 100% 0;
+		-moz-transform-origin: 100% 100% 0;
+		-ms-transform-origin: 100% 100% 0;
+		-o-transform-origin: 100% 100% 0;
+		transform-origin: 100% 100% 0;
+		z-index: 11;
+		
+		-webkit-transform:rotate(90deg) translate(100%, 0px);
+		-moz-transform:rotate(90deg) translate(100%, 0px);
+		-ms-transform:rotate(90deg) translate(100%, 0px);
+		-o-transform:rotate(90deg) translate(100%, 0px);
+		transform: rotate(90deg) translate(100%, 0px);
+		position:absolute
+		left:100%;
+		top: 0;
+}
+
+#logo-ci a, #menu-principal a, #menu-principal a, #fleche-haut a, #fleche-bas a, #slider a, #reseaux-sociaux a  {
+	border:none;	
+}
+
+@media screen and (min-width: 900px) { 
+/* On déclare un média queries pour les ecrans de plus de 900px de large */
+	#menu-principal-r {
+		display:none;	
+	}
+	
+	#menu-principal{
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:10;		
+		background-color:#FFFFFF;
+		width:100%;
+		height:70px;
+	}
+	
+	#titre-menu{
+		visibility:hidden;	
+	}
+	
+	#menu {
+		display: inline-block;
+		padding:0;
+		margin:20px 0 20px 50px; 
+		position:fixed;
+		z-index:10;
+	}
+	
+	#menu li {
+		display: inline-block;
+		margin:0;
+		padding:0 8px 0 5px;
+		border-right:2px solid #6495ED;
+		letter-spacing: 0.5px;
+		list-style: outside none none;
+		margin:0;		
+	}
+	
+	
+	#menu li:first-child{
+		padding-left:0;	
+	}
+	
+	#menu li:last-child{
+		border: 0;	
+	}
+	
+	#menu-principal #menu-social-r {
+		visibility:hidden;	
+		display:none;
+	}
+	
+	#logo-ci {
+		position: fixed;
+		font-size:xx-large;
+		letter-spacing: 20px;
+		right: 70px;
+		top: 0vh;
+	}
+	
+	#fleche-haut{
+		position: fixed;
+		z-index:10;
+		right: 25px;
+		top: 700px;	
+		padding-top:25px;
+		transition:padding-top 1s;	
+	}
+	
+	#fleche-bas{
+		position: fixed;
+		z-index:10;
+		right: 25px;
+		top:800px;	
+		padding-top:0px;
+		transition:padding-top 1s;			
+	}
+	
+	#fleche-haut:hover {	
+		padding-top:0px;	
+	}
+	
+	#fleche-bas:hover {
+		padding-top:25px;
+	}
+	
+		.texte-bleu{
+		color:#6495ED;
+		font-size:x-large;
+		font-weight:700;
+		font-variant:small-caps;
+		font-stretch:expanded;
+	}	
+	
+		.texte-bleu-bas-de-casse{
+		color:#6495ED;
+		font-size:x-large;
+		font-weight:700;
+		font-variant:normal;	
+	}	
+		.texte-bleu-paragraphe{
+		color:#6495ED;
+		font-size:inherit	;
+		font-weight:bolder;
+		font-variant:normal;	
+	}	
+		. section article h2 {
+    font-size: xx-large;
+	}
+	
+	#reseaux-sociaux{
+		font-weight: 700;
+		letter-spacing: 0.4px;
+		line-height: 1em;
+		position: fixed;
+		-webkit-transform-origin: 0 0 0;
+		left: 50px;
+		top: calc(90vh + 40px);
+		-moz-transform-origin: 0 0 0;
+		left: 50px;
+		top: calc(90vh + 40px);
+		-ms-transform-origin: 0 0 0;
+		left: 50px;
+		top: calc(90vh + 40px);
+		 -o-transform-origin: 0 0 0;
+		left: 50px;
+		top: calc(90vh + 40px);
+		transform-origin: 0 0 0;	
+		left: 50px;
+		top: calc(90vh + 40px);
+		-webkit-transform: rotate(-90deg) translateX(0px);
+		-moz-transform: rotate(-90deg) translateX(0px);
+		-ms-transform: rotate(-90deg) translateX(0px);
+		 -o-transform: rotate(-90deg) translateX(0px);
+		transform: rotate(-90deg) translateX(0px);
+		z-index: 8;	
+	}
+	
+	#reseaux-sociaux span{
+		background-color:#6495ED;
+		color:#CCC;	
+		padding:5px;
+	}
+	
+	#reseaux-sociaux #menu-social {
+		display: inline-block;
+		margin:0;
+		padding:0;
+		max-width: 70vh;	
+	}
+	
+	#reseaux-sociaux #menu-social li {
+		display: inline-block;
+		letter-spacing: 0.5px;
+		list-style: outside none none;
+		margin: 6px 5px;
+	}	
+}
+
+@media screen and (max-width: 900px) { 
+/* On déclare un média queries pour les ecrans de moins de 900px de large */
+	#menu-principal {
+		display:none;	
+	}
+
+	#menu-principal-r
+	{
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:10;
+	}
+	
+	#menu-principal-r a {
+		color:white;	
+	}
+	
+/* Super fish */
+	/*** ESSENTIAL STYLES ***/
+.sf-menu-r, .sf-menu-r * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu-r li {
+	position: relative;
+	width:50px;
+	height:50px;		
+}
+
+.sf-menu-r li li{
+	position: relative;
+	width:120%;
+	height:100%;		
+}
+
+.sf-menu-r ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+.sf-menu-r > li {
+	float: left;
+}
+.sf-menu-r li:hover > ul,
+.sf-menu-r li.sfHover > ul {
+	display: block;
+}
+
+.sf-menu-r a {
+	display: block;
+	position: relative;
+}
+
+.sf-menu-r a.enligne {
+	display:inline-block;
+}
+
+.sf-menu-r ul ul {
+	top: 0;
+	left: 100%;
+}
+
+
+/*** DEMO SKIN ***/
+.sf-menu-r {
+	float: left;
+	margin-bottom: 1em;
+}
+.sf-menu-r ul {
+	/*box-shadow: 2px 2px 6px rgba(0,0,0,.2);*/
+	min-width: 12em; /* allow long menu items to determine submenu width */
+	*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+
+.sf-menu-r a {
+	/*border-left: 1px solid #fff;
+	border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
+	/*border-top: 1px solid rgba(255,255,255,.5);*/
+	padding: .75em 1em;
+	text-decoration: none;
+	zoom: 1; /* IE7 */
+}
+.sf-menu-r a {
+	color: #13a;
+}
+.sf-menu-r li {
+	white-space: nowrap; /* no need for Supersubs plugin */
+	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	-moz-transition: background .2s;
+	-ms-transition: background .2s;
+	-o-transition: background .2s;
+	transition: background .2s;
+}
+.sf-menu-r ul li {
+	background: #6495ED;
+}
+.sf-menu-r ul ul li {
+	background: #6495ED;
+}
+.sf-menu-r li:hover,
+.sf-menu-r li.sfHover {
+	
+	/* only transition out, not in */
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+	padding-right: 2.5em;
+	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	margin-top: -3px;
+	height: 0;
+	width: 0;
+	/* order of following 3 rules important for fallbacks to work */
+	border: 5px solid transparent;
+	border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+	border-top-color: rgba(255,255,255,.5);
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -3px;
+	border-color: transparent;
+	border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
+	border-left-color: rgba(255,255,255,.5);
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: white;
+}
+
+/* Suite page responsive */
+	#logo-ci {
+		position: fixed;
+		z-index:9;
+		font-size:large;
+		letter-spacing: 15px;		
+		right:30px;
+		top:40px;	
+	}
+		
+	.texte-bleu{
+		color:#6495ED;
+		font-size:large;
+		font-weight:700;
+		font-variant:small-caps;
+	}	
+	
+	#reseaux-sociaux{	
+		display:none;
+	}
+}
+/*menu d réseaux sociaux pieds de page*/
+
+	

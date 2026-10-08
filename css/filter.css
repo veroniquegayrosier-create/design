@@ -1,0 +1,14 @@
+.grayscale-hover:hover img {
+-webkit-filter: grayscale(80%);
+transition:all 1s;
+-moz-filter: grayscale(80%);
+transition:all 1s;
+-ms-filter: grayscale(80%);
+transition:all 1s;
+-o-filter: grayscale(80%);
+transition:all 1s;
+filter: grayscale(80%);
+transition:all 1s;
+filter: grayscale(80%);
+transition:all 1s;
+}

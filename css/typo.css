@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Typo */
+
+@font-face {
+    font-family: 'futura_std_lightitalic';
+    src: url('font-face/futurastd-lightoblique-webfont.eot');
+    src: url('font-face/futurastd-lightoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-face/futurastd-lightoblique-webfont.woff') format('woff'),
+         url('font-face/futurastd-lightoblique-webfont.ttf') format('truetype'),
+         url('font-face/futurastd-lightoblique-webfont.svg#futura_std_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_std_lightregular';
+    src: url('font-face/futurastd-light-webfont.eot');
+    src: url('font-face/futurastd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-face/futurastd-light-webfont.woff') format('woff'),
+         url('font-face/futurastd-light-webfont.ttf') format('truetype'),
+         url('font-face/futurastd-light-webfont.svg#futura_std_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_std_bookitalic';
+    src: url('font-face/futurastd-bookoblique-webfont.eot');
+    src: url('font-face/futurastd-bookoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-face/futurastd-bookoblique-webfont.woff') format('woff'),
+         url('font-face/futurastd-bookoblique-webfont.ttf') format('truetype'),
+         url('font-face/futurastd-bookoblique-webfont.svg#futura_std_bookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_std_bookregular';
+    src: url('font-face/futurastd-book-webfont.eot');
+    src: url('font-face/futurastd-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font-face/futurastd-book-webfont.woff') format('woff'),
+         url('font-face/futurastd-book-webfont.ttf') format('truetype'),
+         url('font-face/futurastd-book-webfont.svg#futura_std_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('font-face/icomoon.eot?optfz5');
+    src: url('font-face/icomoon.eot?optfz5#iefix') format('embedded-opentype'),
+         url('font-face/icomoon.woff?optfz5') format('woff'),
+         url('font-face/icomoon.ttf?optfz5') format('truetype'),
+         url('font-face/icomoon.svg?optfz5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

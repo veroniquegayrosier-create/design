@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+#global #contenu #a, #global #contenu #c, #global #contenu #b, #global #contenu #et-2 {
+	height: 540px;
+	float:left;
+}
+
+#global #contenu #a {
+	width: 229px;
+}
+
+#global #contenu #a a {
+	background-image: url(../images/A-off_home.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -50000px;
+	display: block;
+	height: 304px;
+	width: 229px;
+}
+
+#global #contenu #a a:hover {
+	background-image: url(../images/A-on_home.png);
+}
+
+#global #contenu #c {
+	width: 211px;
+}
+
+#global #contenu #c a {
+	background-image: url(../images/C-off_home.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -8000000px;
+	display: block;
+	height: 285px;
+	width: 211px;
+	margin-top: 255px;
+}
+
+#global #contenu #c a:hover {
+	background-image: url(../images/C-on_home.png);
+}
+
+#global #contenu #b {
+	width: 291px;
+}
+
+#global #contenu #b a {
+	background-image: url(../images/B-off_home.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -8000000px;
+	display: block;
+	height: 311px;
+	width: 291px;
+	margin-top: 100px;
+}
+
+#global #contenu #b a:hover {
+	background-image: url(../images/B-on_home.png);
+}
+
+#global #contenu #et-2 {
+	width: 249px;
+}
+
+#global #contenu #et-2 #esperluette a {
+	background-image: url(../images/esperluette-off_home.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -8000000px;
+	display: block;
+	height: 135px;
+	width: 141px;
+	margin-top: 33px;
+	margin-left:14px;	
+}
+
+#global #contenu #et-2 #esperluette a:hover {
+	background-image: url(../images/esperluette-on_home.png);
+}
+
+#global #contenu #et-2 #portefolio a {
+	background-image: url(../images/2-off_home.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -8000000px;
+	display: block;
+	height: 251px;
+	width: 212px;
+	margin-top: 130px;
+}
+
+#global #contenu #et-2 #portefolio a:hover {
+	background-image: url(../images/2-on_home.png);
+}
+
+

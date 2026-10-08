@@ -1,0 +1,82 @@
+#global div #droite .actu {
+	padding: 10px;
+	height: 90px;
+	width: 200px;
+	border: 1px dashed #ccc;
+	vertical-align: middle;
+	display: table-cell;
+	cursor:pointer;
+}
+
+#global div #droite .actu h2 {
+	font-size: 13px;
+	font-weight: normal;
+	color: #6495ED;
+	text-transform: uppercase;
+}
+#global div #droite .actu h2 a {
+	color: #6495ED;
+	text-decoration: none;
+}
+
+#global div #droite .actu p {
+	font-size: 12px;
+}
+
+#global div #droite #pointille-h {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	left: 258px;
+	top: 42px;
+}
+
+#global div #droite #actu1 {
+	position: absolute;
+	left: 33px;
+	top: 18px;
+}
+
+#global div #droite #ciseau {
+	height: 77px;
+	width: 110px;
+	position: absolute;
+	top: 156px;
+	left: 43px;
+}
+
+#global div #droite #actu2 {
+	position: absolute;
+	top: 144px;
+	left: 209px;
+}
+
+#global div #droite #actu3 {
+	position: absolute;
+	top: 268px;
+	left: 33px;
+}
+
+#global div #droite #pointille-b {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 258px;
+	left: 258px;
+}
+
+#global div #droite #video {
+	position: absolute;
+	height: 134px;
+	width: 178px;
+	top: 390px;
+	left: 190px;
+}
+
+#global div #droite #pointille-droit {
+	position: absolute;
+	height: 235px;
+	width: 1px;
+	top: 258px;
+	left: 370px;
+}

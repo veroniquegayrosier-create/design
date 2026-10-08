@@ -1,0 +1,80 @@
+@charset "UTF-8";
+#global div[role="contenu-principal"] h2 {
+	color:#6495ED;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+
+#global div[role="contenu-principal"] h2 a {
+	color:#6495ED;
+	text-decoration:none;
+}
+
+#global div[role="contenu-principal"] #zone-overflow {
+	height:356px;
+	padding-right:20px;
+	overflow-y:auto;	
+}
+
+#global div[role="contenu-principal"] #zone-overflow a {
+	color: #6495ED;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #6495ED;
+}
+
+#global div[role="contenu-principal"] #gauche #btn-contact {
+	display:block;
+	width:249px;
+	height:134px;
+	text-indent: -5000px;
+	background-image: url(../images/contact.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: 20px 20px 20px 0;
+}
+
+#global div #droite #publication {
+	margin-top: 65px;
+	margin-left: 100px;
+}
+#global div #droite #collection {
+	margin-top: 30px;
+	margin-left: 200px;
+}
+#global div #droite #fabrication {
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+#global div #droite #ours {
+	margin-left: 300px;
+	margin-top:25px
+}
+
+#global div #gauche #zone-overflow p {
+	margin-bottom: 10px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+/* Formulaire */
+
+#global div #gauche form p {
+	margin:5px 0 10px 0;	
+}
+
+#global div #gauche form label[for="nom"], #global div #gauche form label[for="prenom"], #global div #gauche form label[for="mail"]   {
+	display: inline-block;
+	width: 90px;
+}
+
+
+#global div #gauche form label[for="message"] {
+	display:block;	
+}
+
+#global div #gauche form .obligatoire {
+	color:#6495ED;	
+}

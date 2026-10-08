@@ -1,0 +1,136 @@
+@charset "UTF-8";
+#global div[role="contenu-principal"] article {
+	padding-top: 50px;
+	text-align: right;
+	height: 480px;
+	background-repeat: no-repeat;
+	background-position: 250px 100px;	
+}
+
+#global div[role="contenu-principal"] article h1 {
+	color:#6495ED;
+	cursor:pointer;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #6495ED;
+}
+
+#global div[role="contenu-principal"] article h3 {
+	color:#6495ED;
+	font-size: 20px;
+}
+
+#global div[role="contenu-principal"] article h2#intro-escamotable {
+	visibility:hidden;
+	font-size:12px;
+	font-weight:normal;
+	width:400px;
+	height:150px;
+	margin-left:495px;
+	line-height: 25px;
+}
+
+#global div[role="contenu-principal"] article h2#intro {
+	font-size:12px;
+	font-weight:normal;
+	line-height: 25px;
+	margin-top: 20px;
+	padding-bottom: 100px;
+}
+.lien-ressource {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#global div article .lien-ressource a {
+	color: #666;
+	text-decoration: none;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6495ED;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#global div article .lien-ressource a:hover {
+	color: #6495ED;
+}
+
+/* animation +++ */
+#anim a {
+	color: rgba(255, 255, 255, 0);/* couleur du texte en transparent */
+	display:inline-block;
+	width:60px;
+	height:20px;
+    /* pour les vieux navigateurs */
+	background: url(../images/plus-gris.png) no-repeat left center;
+	border-left: 1px solid #6495ED;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+p#anim a {
+	
+	/* Firefox */
+	-moz-animation: plus 12s infinite linear;
+	
+	/* appel de l'animation*/
+	animation-name: plus; /* nom de l'animation */
+	animation-duration: 12s; /* temps de l'animation (4s) */
+	animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+	animation-timing-function: linear; /* accelération de l'animation (constant) */
+	
+	/* Chrome et safari */
+	-webkit-animation-name: plus; /* nom de l'animation */
+	-webkit-animation-duration: 12s; /* temps de l'animation (4s) */
+	-webkit-animation-iteration-count: infinite; /* nombre de boucles (infinie) */
+	-webkit-animation-timing-function: linear; /* accelération de l'animation (constant) */
+	
+}
+
+@-moz-keyframes plus {
+0% {background:url(../images/plus-gris.png) left center;}
+34% {background:url(../images/plus1.png) left center;}
+51% {background:url(../images/plus2.png) left center;}
+68% {background:url(../images/plus3.png) left center;}
+85% {background:url(../images/plus2.png) left center;}
+100% {background:url(../images/plus1.png) left center;}
+}
+
+@keyframes plus {
+0% {background:url(../images/plus-gris.png) left center;}
+34% {background:url(../images/plus1.png) left center;}
+51% {background:url(../images/plus2.png) left center;}
+68% {background:url(../images/plus3.png) left center;}
+85% {background:url(../images/plus2.png) left center;}
+100% {background:url(../images/plus1.png) left center;}
+}
+
+
+@-webkit-keyframes plus {
+0% {background:url(../images/plus-gris.png) left center;}
+34% {background:url(../images/plus1.png) left center;}
+51% {background:url(../images/plus2.png) left center;}
+68% {background:url(../images/plus3.png) left center;}
+85% {background:url(../images/plus2.png) left center;}
+100% {background:url(../images/plus1.png) left center;}
+}
+
+
+
+#global div article #lien-boutique {
+	background-image: url(../images/bouton-shop-off.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	height: 368px;
+	width: 66px;
+	left: 0px;
+	display: block;
+	top: 168px;
+	text-indent: -5000px;
+}
+
+#global div article #lien-boutique:hover {
+	background-image: url(../images/bouton-shop-on.png);
+}

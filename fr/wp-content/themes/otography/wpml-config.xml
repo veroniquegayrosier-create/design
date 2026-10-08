@@ -1,0 +1,13 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_otography">
+			<key name="search_text" />
+			<key name="excerpt_text" />
+			<key name="footer-edit-options" />
+			<key name="banner_button_text" />
+			<key name="banner_button_url" />
+			<key name="sticky_text" />
+
+		</key>
+	</admin-texts>
+</wpml-config>
