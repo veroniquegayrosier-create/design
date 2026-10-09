@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#contenu {
+	position: absolute;
+	margin-top: 50px;
+	background-color: #fff;
+	display: table;
+	table-layout: fixed;
+	z-index: 7;
+	padding: 5% 10%;
+	width: 80%;
+	left: 0px;
+	top: 0px;
+}
+
+#contenu #num-page {
+	clear:both;
+	text-align: right;
+	margin-right: 10px;
+}
+#contenu #num-page a {
+	color: #666;
+	text-decoration: none;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #6495ED;
+	border-bottom:none;
+	padding-right: 2px;
+	padding-left: 5px;
+ }
+#contenu #num-page a:hover {
+	color: #6495ED;
+ }
+
+
+ 
+ 
+/* essai navigation interne du 8-08-2019*/
+
+    #menu-ressources{
+	position: relative;
+    width: 100%;
+	}
+	
+	#titre-menu-ressources{
+		visibility:hidden;	
+	}
+	
+	#menu-ressources  ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+	
+}
+	
+	#menu-ressources ul li {
+    display: inline-block;
+	margin:0;
+	padding:0 8px 0 5px;
+	border-right:2px solid #6495ED;
+	letter-spacing: 0.5px;
+	margin:0;	
+	   
+}
+	
+	
+
+
+@media screen and (min-width: 900px) { 
+/* On déclare un média queries pour les ecrans de plus de 900px de large */
+	section{
+	margin:0 15%;	
+    }
+ 
+ section p {
+		text-align:justify;	
+	}
+	
+	.galerie ul {
+		margin:0;
+		padding:0;	
+	}
+	
+	.galerie ul li{
+		display:inline-block;
+		list-style-type:none;
+		width:27%;
+		padding:3.6% 3.6%;
+	}
+	
+	.galerie ul li:first-child{
+		padding-left:0;	
+	}
+	
+	.galerie ul li:last-child{
+		padding-right:0;	
+	}
+	.galerie ul li img {
+		width:100%;	
+	}
+}
+
+@media screen and (max-width: 900px) { 
+	section{
+	margin:0;	
+ }
+	
+	#fleche-haut, #fleche-bas{
+		display:none;	
+	}
+	.galerie ul {
+		margin:0;
+		padding:0;	
+	}
+	.galerie ul li{
+		list-style-type:none;
+	}
+	.galerie ul li img {
+		width:100%;
+	}	
+}
